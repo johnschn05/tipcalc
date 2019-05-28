@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import tkinter as tk
 
 HEIGHT = 300
@@ -36,7 +38,7 @@ def add(x,y,z):
     z=(z / 100)         # convert to percent as a decimal
     ttpp=(x * z / y)    # tip total per person
     ttpp=str(ttpp)
-    tiptext= ("Tip total per person: " + ttpp)
+    tiptext= ("Tip total per person: $" + ttpp)
 
     l1['text'] = format_response(tiptext)
 
