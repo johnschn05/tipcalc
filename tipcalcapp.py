@@ -65,7 +65,7 @@ f2.place(relx=0.5, rely=0.35, relwidth=0.75, relheight=0.4, anchor='n')
 
 # buttons
 b1=tk.Button(root, text="About", command=lambda :popupmsg)
-b2=tk.Button(f2, text="Submit",  command=lambda :add(x.get(),y.get(),z.get()))
+b2=tk.Button(f2, text="Submit", command=lambda :add(x.get(),y.get(),z.get()))
 b3=tk.Button(f2, text="Quit", command=root.destroy)
 
 # button positions
